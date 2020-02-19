@@ -1,4 +1,5 @@
 describe('index.js', function () {
+  this.timeout(0)
   const drivers = ['Sally', 'Bob', 'Freddy', 'Claudia'];
 
   afterEach(function () {
